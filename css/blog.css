@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", monospace;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+   
+  .header {
+    background-color: #48cfad;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .header__nav a {
+    color: white;
+    margin: 100px 0;
+  }
+  
+  .header__nav {
+    padding: 15px 70px;
+  }
+  
+  .main__content img {
+    width: 30%;
+  }
+  
+  .main__content-about {
+    color: black;
+    font-size: 1.5rem;
+    align-self: center;
+    padding-right: 3rem;
+  
+    font-weight: 300;
+    border-bottom: 1px solid white;
+  }
+
+  .main__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .blogpresentation{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      padding: 2rem 3rem;
+      color: #23282d;
+      background-color: #e6e9ed;
+
+  }
+
+  .blogpresentation__img img {
+      width: 100%;
+       
+  }
+
+  .blogpresentation__title {
+      align-self: center;
+  }
+
+  .blogpresentation__title h1 , p , a{
+      margin-bottom: 2rem;
+     
+  }
+
+  .blog-btn {
+    margin-bottom: 2rem;
+    color: black;
+    border: 1px solid #48cfad67;
+    background-color: rgba(72, 207, 173, 0.404);
+    padding: .5rem;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: .8rem;
+}
+
+.blog-btn:hover{
+    -webkit-box-shadow: 1px 1px 1px 1px #48cfad67;
+    box-shadow: 1px 1px 1px 1px #48cfad67;
+    
+}
+
+.h2project_blog{
+    text-align: center;
+    margin-top: 2rem;
+    color: #23282d;
+    font-weight: 300;
+    font-size: 2rem;
+    
+}
+
+.separationproject{
+    width: 80%;
+    display: block;
+    margin: 1rem auto;
+    border-color: #e6e9ed;
+    opacity: .5;
+}
+
+
+.articlesblog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: 2rem;
+    color: #23282d;
+    justify-content: center;
+    
+}
+
+.articlesblog__art img{
+    width: 100%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity .5s;
+}
+.articlesblog__art img:hover{
+     
+    opacity: 1;
+}
+
+.articlesblog__art{
+    background-color: #48cfad1c;
+}
+ 

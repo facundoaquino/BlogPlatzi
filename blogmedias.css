@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px){
+
+
+.articlesblog{
+    grid-template-columns: repeat(2,1fr);
+    margin: 1rem 20%;
+    background-position: center;
+}
+
+.header{
+    display: block;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.header__nav a {
+    margin: 10px;
+}
+.blogpresentation{
+    grid-template-columns: 1fr;
+}
+.main__content-about{
+    margin: 0;
+}
+
+.articlesblog{
+    grid-template-columns: 1fr;
+}
+}
